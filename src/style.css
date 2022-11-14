@@ -142,7 +142,7 @@ footer * {
 .menu-item {
     display: flex;
     width: 50rem;
-    padding : var(--left-pad) var(--top-pad);
+    padding : 0 var(--left-pad);
 
 }
 
@@ -164,7 +164,6 @@ footer * {
 .menu-item p:first-of-type::after {
     content : "....................................................................................." ;
 }
-
 
 .menu-container h2{
     text-align: center;
